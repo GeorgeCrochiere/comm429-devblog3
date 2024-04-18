@@ -1,0 +1,60 @@
+:root {
+    --b-link: #47e694;
+    --b-link-visited: #3e9c6b;
+}
+
+body {
+    min-width: 100%;
+    margin: 0px;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+pre,
+blockquote {
+    background-color: var(--b-bg-2) !important;
+    color: var(--b-txt);
+    padding-right: 10px;
+}
+
+blockquote a,
+a {
+    color: var(--b-link);
+}
+
+blockquote a:visited,
+a:visited {
+    color: var(--b-link-visited);
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.njk-layout-boundry {
+    color: #b10f45;
+}
+
+.njk-layout-name {
+    color: #df2e2e;
+}
+
+.njk-layout-parameter {
+    color: #47e694;
+}
+
+.njk-layout-number {
+    color: #e98c21;
+}
+
+.njk-layout-indexing {
+    color: #1edde4;
+}

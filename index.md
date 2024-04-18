@@ -84,7 +84,7 @@ ___
 ## The Error
 To recap, the error present occurs when one tries to upload an image, yet WordPress doesn't have the permissions to upload. This return the following error message:
 
->`Unable to create directory wp-content/uploads/<year>/<month>. Is the parent directory writable by the server.`
+>`Unable to create directory wp-content/uploads/<year>/<month>. Is the parent directory writable by the server?`
 
 ![Upload Error in WordPress due to permissions.](./src/images/ErrorWP.png)
 
